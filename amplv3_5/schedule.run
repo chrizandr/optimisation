@@ -3,6 +3,5 @@ data schedule.dat
 option solver './cplex';
 solve;
 display eta;
-display y;
 display{i in I,k in K} (t[i,k],t[i,k] + p[i,k]);
 display{k in K, i in I} (t[i,k]);

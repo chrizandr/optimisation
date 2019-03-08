@@ -7,7 +7,7 @@ set K := 1..m;
 
 param p{i in I, k in K}, >=0;
 
-param M := sum{i in I, k in K}(p[i,k]);
+param M := 2*sum{i in I, k in K}(p[i,k]);
 
 # Variables
 

@@ -1,32 +1,7 @@
 CPLEX 12.8.0.0: optimal integer solution; objective 14.1
-1058 MIP simplex iterations
-241 branch-and-bound nodes
+1420 MIP simplex iterations
+358 branch-and-bound nodes
 eta = 14.1
-
-y [*,*,1]
-:   1   2   3   4   5    :=
-1   0   0   0   0   0
-2   0   0   0   0   0
-3   0   0   0   0   0
-4   0   0   0   0   0
-5   0   0   0   0   0
-
- [*,*,2]
-:   1   2   3   4   5    :=
-1   0   0   0   0   0
-2   0   0   0   0   0
-3   0   0   0   0   0
-4   0   0   0   0   0
-5   0   0   0   0   0
-
- [*,*,3]
-:   1   2   3   4   5    :=
-1   0   0   0   0   0
-2   0   0   0   0   0
-3   0   0   0   0   0
-4   0   0   0   0   0
-5   0   0   0   0   0
-;
 
 :   t[i,k] t[i,k] + p[i,k]    :=
 1 1    9.1       12.1

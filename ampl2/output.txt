@@ -1,0 +1,8 @@
+MINOS 5.51: optimal solution found.
+0 iterations, objective 25
+Z = 25
+
+A = 2.5
+
+B = 0
+

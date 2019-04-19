@@ -1,0 +1,6 @@
+model ampl.mod
+data ampl.dat
+option solver './minos';
+solve;
+display Z;
+display{i in I, k in K} (x[k, i]);

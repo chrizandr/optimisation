@@ -1,0 +1,6 @@
+model ampl.mod
+option solver './minos';
+solve;
+display Z;
+display A;
+display B;
